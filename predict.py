@@ -8,7 +8,7 @@ YUNET_MODEL = "model/face_detection_yunet_2023mar.onnx"
 SFACENET_MODEL = "model/face_recognition_sface_2021dec.onnx"
 
 svc = joblib.load('model/svc.pkl')
-mydict = ['Chi Thanh', 'Huu Loc', 'Linh Phan', 'Thai Hung']
+mydict = ['Bao', 'Chi Thanh', 'Huu Loc', 'Linh Phan', 'Thai Hung']
 
 
 def str2bool(v):

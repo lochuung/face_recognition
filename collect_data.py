@@ -88,4 +88,4 @@ def collect_face_samples(name, num_samples=120, camera_id=DEFAULT_CAMERA_ID):
 
 
 if __name__ == "__main__":
-    collect_face_samples("Bao")
+    collect_face_samples("Anh Ngoc", 200)
